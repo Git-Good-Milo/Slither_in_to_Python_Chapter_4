@@ -24,7 +24,16 @@ number = int(input("Please select a number for Fizbuzz: "))
 
 # Then we create an if statement to satisfy the least likely senario
 
-if number %5 == 0 and number %3 ==0
+if number %5 == 0 and number %3 == 0:
     print("FIZBUZ!!!")
+elif number %5 == 0:
+    print("BUZZ!!!")
+elif number % 3 == 0:
+    print("FIZ!!!")
 
+else:
+    print("Sorry your number is invalid")
+
+# Question 3
+# Write a program which takes in six numbers, x1, y1, r1 and x2, y2, r2 (which are the x and y coordinates of the center of a circle and that circles radius) and print out whether or not the two circles overlap.
 
