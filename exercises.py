@@ -12,6 +12,19 @@ if c == (a**2 + b**2)**0.5:
 else:
     print(f"Sorry! Your number {c} for c does not form a right angled triangle with a and b")
 
+# Question 2
+# Fizz buzz is a game in which the following rules apply:
+    # any number which is divisible by 3 is replaced with fizz
+    # any number which is divisible by 5 is replaced with buzz
+    # any number which is divisible by both 3 and 5 is replaced with fizz-buzz
+    # any other number is just the number itself
 
+# First we assign a variable with an input
+number = int(input("Please select a number for Fizbuzz: "))
+
+# Then we create an if statement to satisfy the least likely senario
+
+if number %5 == 0 and number %3 ==0
+    print("FIZBUZ!!!")
 
 
