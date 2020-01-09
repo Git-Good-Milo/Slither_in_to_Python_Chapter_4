@@ -37,3 +37,15 @@ else:
 # Question 3
 # Write a program which takes in six numbers, x1, y1, r1 and x2, y2, r2 (which are the x and y coordinates of the center of a circle and that circles radius) and print out whether or not the two circles overlap.
 
+# First we set the variables to a user input for the first circle
+x1 = int(input("Please enter an x1 value: "))
+y1 = int(input("Please enter a y1 value: "))
+r1 = int(input("Please select an r1 value: "))
+
+# we repeat this process for the second circle
+x2 = int(input("Please enter an x2 value: "))
+y2 = int(input("Please enter a y2 value: "))
+r2 = int(input("Please select an r2 value: "))
+
+# Next we need to write out an if statement to see if the input values cause the circles to overlap
+circle_overlap = 
